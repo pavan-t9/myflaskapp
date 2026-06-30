@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "<h1>Flask app is running!</h1>"
+    return "<h1>Flask app is running..!</h1>"
 
 @app.route("/db")
 def db():
